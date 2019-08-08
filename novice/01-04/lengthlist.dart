@@ -9,4 +9,5 @@ main(){
 for (int tampilangka in angka){
   print(tampilangka);
 }
+
 }
