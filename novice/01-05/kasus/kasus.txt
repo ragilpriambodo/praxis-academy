@@ -1,0 +1,47 @@
+ly called Google AdWords) is
+<a href="https://news.dartlang.org/2016/03/the-new-adwords-ui-uses-dart-we-asked.html">built in Dart.</a>
+So is Google’s internal CRM.</p>
+
+<p><img src="/assets/adwords-screenshot-f0bb708affade91c598e1f17687427fc78d3be30720b2e6e250b0e5e22748dfe.png" alt="screenshot of Google ads front end" class="center-block" /></p>
+
+<p class="text-center">
+  <a href="/tutorials/web/get-started" class="btn btn-primary btn-lg">Get started</a>
+</p>
+
+          
+
+        </div>
+      </article>
+    </main>
+    <footer id="page-footer">
+  <div class="container">
+    <div class="content">
+      <div class="text-center" martdown="1">
+        <style>.menu .material-icons { font-size: 14px; }</style><ul class="menu">
+          <li><a href="/terms">Terms</a></li>
+          <li><a href="/security">Security</a></li>
+          <li><a href="http://www.google.com/intl/en/policies/privacy/" class="no-automatic-external">Privacy</a></li>
+          <li>Site&nbsp;<a href="http://creativecommons.org/licenses/by/3.0/" class="no-automatic-external">CC&nbsp;BY&nbsp;3.0</a></li>
+          <li>
+            <a href="https://github.com/dart-lang/site-www"
+               title="This site's source is on GitHub."
+               class="no-automatic-external"><i class="fab fa-github fa-sm"></i></a>
+            &nbsp;
+            <a href="https://github.com/dart-lang/site-www/issues"
+               title="File an issue about this site."
+               class="no-automatic-external"><i class="fas fa-bug fa-sm"></i></a>
+            &nbsp;
+            <a 
+               href="https://travis-ci.org/dart-lang/site-www/jobs/569463798"
+               title="Site build #3518 (2019/08/08 10:34 PDT)"
+               
+               class="no-automatic-external"><i class="fas fa-wrench fa-sm"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
