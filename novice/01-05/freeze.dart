@@ -21,8 +21,12 @@
 
 
 Future<void> printSekumpulanBeritaHarian() async{
+   try {
   var newsDigest = await gatherNewsReports(); // Can take a while.
   print(newsDigest);
+  } catch (e) {
+    // Handle error...
+  }
 }
 
 main() {
