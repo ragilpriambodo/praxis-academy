@@ -10,7 +10,6 @@ void main() {
 class TutorialHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // Scaffold is a layout for the major Material Components.
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(
@@ -27,7 +26,6 @@ class TutorialHome extends StatelessWidget {
           ),
         ],
       ),
-      // body is the majority of the screen.
       body: Center(
         child: Text('Hello, world!'),
       ),
