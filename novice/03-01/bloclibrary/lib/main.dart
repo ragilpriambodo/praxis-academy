@@ -67,7 +67,7 @@ class _WeatherPageState extends State<WeatherPage> {
     );
   }
 
-  Column buildColumnWithData(Weather weather) {
+  Widget buildColumnWithData(Weather weather) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: <Widget>[
