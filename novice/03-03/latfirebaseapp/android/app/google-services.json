@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "344484368320",
+    "firebase_url": "https://latappfirebase.firebaseio.com",
+    "project_id": "latappfirebase",
+    "storage_bucket": "latappfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344484368320:android:7b34a94e9ebc982f",
+        "android_client_info": {
+          "package_name": "com.yourcompany.yourproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344484368320-10sej4u774293j33v8scnknn87ngp9i6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVhJkUMqwCpuEYRCQ2Qomk12Xj718Qevk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344484368320-10sej4u774293j33v8scnknn87ngp9i6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
