@@ -3,14 +3,6 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
-final dummySnapshot = [
- {"name": "Filip", "votes": 15},
- {"name": "Abraham", "votes": 14},
- {"name": "Richard", "votes": 11},
- {"name": "Ike", "votes": 10},
- {"name": "Justin", "votes": 1},
-];
-
 class MyApp extends StatelessWidget {
  @override
  Widget build(BuildContext context) {
@@ -39,14 +31,14 @@ class _MyHomePageState extends State<MyHomePage> {
 
  Widget _buildBody(BuildContext context) {
    return StreamBuilder<QuerySnapshot>(
-   stream: Firestore.instance.collection('baby').snapshots(),
-   builder: (context, snapshot) {
-     if (!snapshot.hasData) return LinearProgressIndicator();
+     stream: Firestore.instance.collection('baby').snapshots(),
+     builder: (context, snapshot) {
+       if (!snapshot.hasData) return LinearProgressIndicator();
 
-     return _buildList(context, snapshot.data.documents);
-   },
-  );
-}
+       return _buildList(context, snapshot.data.documents);
+     },
+   );
+ }
 
  Widget _buildList(BuildContext context, List<DocumentSnapshot> snapshot) {
    return ListView(
@@ -69,7 +61,13 @@ class _MyHomePageState extends State<MyHomePage> {
        child: ListTile(
          title: Text(record.name),
          trailing: Text(record.votes.toString()),
-         onTap: () => record.reference.updateData({'votes': record.votes + 1}),
+         onTap: () => Firestore.instance.runTransaction((transaction) async {
+               final freshSnapshot = await transaction.get(record.reference);
+               final fresh = Record.fromSnapshot(freshSnapshot);
+
+               await transaction
+                   .update(record.reference, {'votes': fresh.votes + 1});
+             }),
        ),
      ),
    );
