@@ -4,7 +4,7 @@ import 'dart:async';
 import 'package:http/http.dart' as http;
 import 'package:flutter/foundation.dart';
 
-void main()=> runApp(MyApp(post: fetchPost()));
+void main()=> runApp(MyApp(post: parsePhotos()));
 class MyApp extends StatelessWidget {
   final Future<Post> post;
   MyApp({Key key, this.post}) : super(key: key);
