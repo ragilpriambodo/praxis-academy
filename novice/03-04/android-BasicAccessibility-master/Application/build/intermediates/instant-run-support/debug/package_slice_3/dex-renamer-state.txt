@@ -1,0 +1,4 @@
+#Thu Aug 22 14:05:48 ICT 2019
+base.0=D\:\\projek\\praxis-academy\\novice\\03-04\\android-BasicAccessibility-master\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex
