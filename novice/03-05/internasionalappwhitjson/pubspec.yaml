@@ -42,7 +42,6 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - lang/id.json
     - lang/en.json
     - lang/sk.json
     
