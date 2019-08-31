@@ -1,5 +1,5 @@
 main(){
-  var A = [6, 2, 3, 66, 3];
+  var A = [10, 3, 4, 2, 20];
 
   for (var i = 0; i < A.length; i++) {
     var key = A[i];
