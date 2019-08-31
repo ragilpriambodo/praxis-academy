@@ -9,9 +9,9 @@
 // return maxDiff
 main() {
   var A = [10, 3, 4, 2, 20];
-  print("Maximum Difference Value: ${MaxDiff(A).toString()}");
+  print("Maximum Difference Value: ${MaxMinDiff(A).toString()}");
 }
-int MaxDiff(A) {
+int MaxMinDiff(A) {
   int min = A[0];
   int max = A[0];
   for (var i=0; i<A.length; i++) {
