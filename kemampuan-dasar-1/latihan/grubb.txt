@@ -1,0 +1,8 @@
+Letak konfgurasi GRUB linux terletak di /boot/grub/grub.cfg. Proses booting 
+linux adalah pertama-tama laptop akan masuk ke tambilan bios, setelah bios maka 
+tampilah menu GRUB (Grand Unified Bootloader). GRUB yaitu program yang menampilkan 
+pilihan sistem operasi dan juga untuk mengatur kernel. Pada saat komputer melakukan 
+booting maka nanti akan dapat memilih os yang akan digunakan, biasanya proses tersebut 
+disebut dengan multiple boot. GRUB berguna disaat kita ingin melakuan dual os 
+(dual boot), misalnya Windows 10 dan Linux Ubuntu 18.04.2 LTS.
+
