@@ -1,0 +1,4 @@
+lokasi Kernel linux adalah dengan menjalankan perintah di terminal menggunakan "dpkg --get-selections | grep linux-image"
+file file yang terlihat adalah:
+1. linux-image-4.18.0-15-generic
+2. linux-image-generic-hwe-18.04
