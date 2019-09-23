@@ -1,0 +1,144 @@
+1. "ls -r"
+Tampilan:
+./Public:
+
+./snap:
+gnome-system-monitor
+
+./snap/gnome-system-monitor:
+100  common  current
+
+./snap/gnome-system-monitor/100:
+
+./snap/gnome-system-monitor/common:
+
+./Templates:
+
+./Videos:
+'Screencast from 21-08-19 18:18:19.webm'
+
+2. "ls -al
+total 184
+drwxr-xr-x 33 ragil ragil  4096 Sep 19  2019 .
+drwxr-xr-x  3 root  root   4096 Agu 15 01:58 ..
+drwxr-xr-x  3 ragil ragil  4096 Agu 16 10:05 .android
+drwxr-xr-x  3 ragil ragil  4096 Agu 16 09:43 Android
+drwxr-xr-x  4 ragil ragil  4096 Agu 16 09:42 .AndroidStudio3.4
+-rw-------  1 ragil ragil  2061 Sep 19 11:52 .bash_history
+-rw-r--r--  1 ragil ragil   220 Agu 15 01:58 .bash_logout
+-rw-r--r--  1 ragil ragil  3804 Agu 16 09:34 .bashrc
+drwxrwxrwx  8 ragil ragil  4096 Agu 26 14:06 batterylevel
+drwx------ 18 ragil ragil  4096 Sep 19 12:02 .cache
+drwx------ 16 ragil ragil  4096 Sep 19 12:00 .config
+drwxr-xr-x  4 ragil ragil  4096 Sep  4 13:47 contoh
+drwxrwxr-x  2 ragil ragil  4096 Agu 16 09:40 .dart
+drwxrwxr-x  4 ragil ragil  4096 Agu 16 09:40 .dartServer
+drwxr-xr-x  2 ragil ragil  4096 Agu 15 09:01 Desktop
+drwxr-xr-x  3 ragil ragil  4096 Agu 16 09:42 Documents
+drwxr-xr-x  2 ragil ragil  4096 Agu 15 09:01 Downloads
+drwxr-xr-x  3 ragil ragil  4096 Sep  4 11:40 ehealth
+-rw-r--r--  1 ragil ragil  8980 Agu 15 01:58 examples.desktop
+drwxr-xr-x 10 ragil ragil  4096 Jul 24 23:04 flutter
+-rw-r--r--  1 ragil ragil    78 Agu 16 09:41 .flutter
+-rw-r--r--  1 ragil ragil    66 Sep  4 11:32 .gitconfig
+drwx------  3 ragil ragil  4096 Agu 16 10:13 .gnome
+drwx------  3 ragil ragil  4096 Agu 16 09:25 .gnupg
+drwxr-xr-x  2 ragil ragil  4096 Sep  8 20:34 .gphoto
+-rw-------  1 ragil ragil 13660 Sep 19  2019 .ICEauthority
+drwxr-xr-x  4 ragil ragil  4096 Agu 16 09:43 .java
+drwxr-xr-x  5 ragil ragil  4096 Sep  4 13:39 latihan
+drwx------  3 ragil ragil  4096 Agu 15 09:01 .local
+drwx------  5 ragil ragil  4096 Agu 15 02:29 .mozilla
+drwxr-xr-x  2 ragil ragil  4096 Agu 15 09:01 Music
+drwxr-xr-x  2 ragil ragil  4096 Agu 15 09:01 Pictures
+drwx------  3 ragil ragil  4096 Agu 16 09:40 .pki
+drwxr-xr-x  6 ragil ragil  4096 Sep  4 11:04 praxis-academy
+-rw-r--r--  1 ragil ragil   807 Agu 15 01:58 .profile
+drwxr-xr-x  2 ragil ragil  4096 Agu 15 09:01 Public
+drwxr-xr-x  3 ragil ragil  4096 Agu 21 18:23 snap
+drwx------  2 ragil ragil  4096 Agu 16 09:25 .ssh
+-rw-r--r--  1 ragil ragil     0 Agu 14 20:03 .sudo_as_admin_successful
+drwxr-xr-x  2 ragil ragil  4096 Agu 15 09:01 Templates
+drwxr-xr-x  2 ragil ragil  4096 Agu 21 18:18 Videos
+drwxrwxr-x  3 ragil ragil  4096 Agu 16 09:40 .vscode
+
+3. "ls -a"
+ragil@ragil-X550IU:~$ ls -a
+.                  contoh            .gnome         praxis-academy
+..                 .dart             .gnupg         .profile
+.android           .dartServer       .gphoto        Public
+Android            Desktop           .ICEauthority  snap
+.AndroidStudio3.4  Documents         .java          .ssh
+.bash_history      Downloads         latihan        .sudo_as_admin_successful
+.bash_logout       ehealth           .local         Templates
+.bashrc            examples.desktop  .mozilla       Videos
+batterylevel       flutter           Music          .vscode
+.cache             .flutter          Pictures
+.config            .gitconfig        .pki
+
+4. "cat > namafile"
+ragil@ragil-X550IU:~$ cat ragil
+cat: ragil: No such file or directory
+ragil@ragil-X550IU:~$ cat > ragil
+haloo dunia
+ragil@ragil-X550IU:~$ cat ragil
+haloo dunia
+
+5. "rm ragil"
+ragil@ragil-X550IU:~$ ls
+Android       Desktop    ehealth           latihan   praxis-academy  snap
+batterylevel  Documents  examples.desktop  Music     Public          Templates
+contoh        Downloads  flutter           Pictures  ragil           Videos
+ragil@ragil-X550IU:~$ rm ragil
+ragil@ragil-X550IU:~$ ls
+Android       Desktop    ehealth           latihan   praxis-academy  Templates
+batterylevel  Documents  examples.desktop  Music     Public          Videos
+contoh        Downloads  flutter           Pictures  snap
+
+6. "mv namafile namafilebaru"
+ragil@ragil-X550IU:~$ ls
+Android       Desktop    ehealth           latihan   praxis-academy  snap
+batterylevel  Documents  examples.desktop  Music     Public          Templates
+contoh        Downloads  flutter           Pictures  ragil           Videos
+ragil@ragil-X550IU:~$ mv ragil ragilbaru
+ragil@ragil-X550IU:~$ ls
+Android       Desktop    ehealth           latihan   praxis-academy  snap
+batterylevel  Documents  examples.desktop  Music     Public          Templates
+contoh        Downloads  flutter           Pictures  ragilbaru       Videos
+
+7. "mkdir namafolder"
+ragil@ragil-X550IU:~$ ls
+Android       Desktop    ehealth           latihan   praxis-academy  snap
+batterylevel  Documents  examples.desktop  Music     Public          Templates
+contoh        Downloads  flutter           Pictures  ragilbaru       Videos
+ragil@ragil-X550IU:~$ mkdir ragil
+ragil@ragil-X550IU:~$ ls
+Android       Documents         flutter   praxis-academy  snap
+batterylevel  Downloads         latihan   Public          Templates
+contoh        ehealth           Music     ragil           Videos
+Desktop       examples.desktop  Pictures  ragilbaru
+
+8. "rmdir namafolder"
+ragil@ragil-X550IU:~$ ls
+Android       Documents         flutter   praxis-academy  snap
+batterylevel  Downloads         latihan   Public          Templates
+contoh        ehealth           Music     ragil           Videos
+Desktop       examples.desktop  Pictures  ragilbaru
+ragil@ragil-X550IU:~$ rmdir ragil
+ragil@ragil-X550IU:~$ ls
+Android       Desktop    ehealth           latihan   praxis-academy  snap
+batterylevel  Documents  examples.desktop  Music     Public          Templates
+contoh        Downloads  flutter           Pictures  ragilbaru       Videos
+
+9. "cat namafile"
+ragil@ragil-X550IU:~$ cat ragilbaru
+haloo dunia
+
+10. "pr -3 namafile"
+ragil@ragil-X550IU:~$ pr -3 ragilbaru
+
+
+2019-09-19 12:18                    ragilbaru                     Page 1
+
+
+haloo dunia
